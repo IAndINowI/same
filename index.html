@@ -4,6 +4,9 @@
         <title>dilivery</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="This is my first HTML page.">
         <meta name="keywords" content="HTML, web development">
@@ -16,36 +19,76 @@
         <title>My First HTML Page</title>
     </head>
     <body>
-        <header class="header">
-            <div class="container"></div>
-                <div class="header-box">
-                    <div class="header-logo logo">
-                        <img src="/image/logo/outline.svg" alt="logo">
-                    </div>
-                    <div class="header-controls"></div>
+<div class="page-wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-logo logo">
+                    <img src="/image/logo/logo.png" alt="logo">
+                </div>
+                <div class="header-controls">
+                    <button class="btn btn-primary"> <img src="/image/icons/User.png" alt="user">
+                    Войти</button>
+                    <button class="btn btn-outline"> <img src="/image/icons/Shopping-cart.png" alt="user">
+                    Корзина</button>
+
+
                 </div>
             </div>
-            <div class="banner"></div>
+        </div>
+        <!-- <div class="banner"></div> -->
 
-        </header>
-        <main class="main">
+    </header>
+    <main class="main">
+        <section class="banner">
             <div class="container">
-                
-            </div>
-
-            </div>
-        </main>
-        <footer  class="footer">
-            <div class="container">
-                <div class="footer-box"></div>
-                <div class="footer-logo logo">
-                    <img src="/image/logo/outline.svg" alt="logo">
+                <div class="banner-item">
+                    <h2 class="banner-item--title">
+                        Онлайн-сервис 
+                    </br>Доставки еды на дом
+                    </h2>
+                    <p class="banner-item--subtitle">
+                        Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
                 </div>
-                <div class="footer-nav"></div>
-                <div class="footer-social"></div>
             </div>
+        </section>
 
-        </footer>
+
+        <section class="products">
+            <div class="container">
+                <div class="products-header">           
+                    <h3 class="products-header--title">
+                    Рестораны
+                    </h3>
+                    <input 
+                    type="text"
+                    placeholder="Поиск блюд и ресторанов"
+                    class="products-header--search">
+                </div>
+            </div>
+    </main>
+    <footer  class="footer">
+        <div class="container">
+            <div class="footer-box">
+            <div class="footer-logo logo">
+                <img src="/image/logo/logo.png" alt="logo">
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">Рестораны</a></li>
+                    <li><a href="#">Курьерам</a></li>
+                    <li><a href="#">Пресс-центр</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <img src="/image/icons/social/instagram.png" alt="INST">
+                <img src="/image/icons/social/facebook.png" alt="FB">
+                <img src="/image/icons/social/vk.png" alt="VK">
+            </div>
+        </div>
+
+    </footer>
+</div>
     </body>
-
     </html>
