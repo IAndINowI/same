@@ -3,7 +3,7 @@
     <head>
         <title>dilivery</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
         <meta name="robots" content="index, follow">
         <meta name="googlebot" content="index, follow">
         <meta name="google-site-verification" content="your-google-site-verification-code">
-    
+        <script src="./script/index.js" defer></script>
         <title>My First HTML Page</title>
     </head>
     <body>
@@ -29,7 +29,7 @@
                 <div class="header-controls">
                     <button class="btn btn-primary"> <img src="./image/icons/User.png" alt="user">
                     Войти</button>
-                    <button class="btn btn-outline"> <img src="./image/icons/Shopping-cart.png" alt="user">
+                    <button class="btn btn-outline " id="cart-button"> <img src="./image/icons/Shopping-cart.png" alt="user">
                     Корзина</button>
                 </div>
             </div>
@@ -52,7 +52,8 @@
                             </div>
                             <div class="products-card__description-row">
                                 <p class="products-card__description--text">
-                                    Рис, соус, унаги, кунжут, водоросли, нори.
+                                    Рис, соус, унаги,</br>
+                                    кунжут, водоросли, нори.
                                 </p>
                             </div>
                             <div class="products-card__description-row">
@@ -61,7 +62,7 @@
                                         В корзину
                                         <img src="./image/icons/shopping-cart--white.png" alt="user">
                                         </button>
-                                    <span class="product-card__description-control--price">
+                                    <span class="products-card__description-control--price">
                                         250  ₽
                                     </span>
                                 </div>
@@ -119,7 +120,7 @@
                                         В корзину
                                         <img src="./image/icons/shopping-cart--white.png" alt="user">
                                         </button>
-                                    <span class="product-card__description-control--price">
+                                    <span class="products-card__description-control--price">
                                         250  ₽
                                     </span>
                                 </div>

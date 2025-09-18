@@ -3,7 +3,7 @@
     <head>
         <title>dilivery</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
         <meta name="robots" content="index, follow">
         <meta name="googlebot" content="index, follow">
         <meta name="google-site-verification" content="your-google-site-verification-code">
-    
+        <script src="./script/index.js" defer></script>
         <title>My First HTML Page</title>
     </head>
     <body>
@@ -24,12 +24,12 @@
         <div class="container">
             <div class="header-box">
                 <a href="index.html" class="header-logo logo">
-                    <img src="/image/logo/logo.png" alt="logo">
+                    <img src="./image/logo/logo.png" alt="logo">
                 </a>
                 <div class="header-controls">
-                    <button class="btn btn-primary"> <img src="/image/icons/User.png" alt="user">
+                    <button class="btn btn-primary"> <img src="./image/icons/User.png" alt="user">
                     Войти</button>
-                    <button class="btn btn-outline"> <img src="/image/icons/Shopping-cart.png" alt="user">
+                    <button class="btn btn-outline" id="cart-button"> <img src="./image/icons/Shopping-cart.png" alt="user">
                     Корзина</button>
                 </div>
             </div>
@@ -62,10 +62,10 @@
                     class="products-header--search">
                 </div>
             
-                <div  class="products-wrapper">
+                <div  class="products-wrapper" id="rests-container"   >
                     <a href="goods.html" class="products-card">
                         <div class="products-card__image">
-                            <img src="/image/food/pizza_plus.jpg" alt="pizza-plus">
+                            <img src="./image/food/pizza_plus.jpg" alt="pizza-plus">
                         </div>
                         <div class="products-card__description">
                             <div class="product-card__description-row">
@@ -79,7 +79,7 @@
                             <div class="products-card__description-row">
                                 <div class="products-card__description-info">
                                     <div class="products-card__description-info-raiting">
-                                        <img src="/image/icons/star.svg" alt="star">
+                                        <img src="./image/icons/star.svg" alt="star">
                                         4.5
                                     </div>
                                     <div class="products-card__description-info--price">
@@ -95,7 +95,7 @@
 
                     <a href="goods.html"  class="products-card">
                         <div class="products-card__image">
-                            <img src="/image/food/tanuki.jpg" alt="pizza-plus">
+                            <img src="./image/food/tanuki.jpg" alt="pizza-plus">
                         </div>
                         <div class="products-card__description">
                             <div class="product-card__description-row">
@@ -109,7 +109,7 @@
                             <div class="products-card__description-row">
                                 <div class="products-card__description-info">
                                     <div class="products-card__description-info-raiting">
-                                        <img src="/image/icons/star.svg" alt="star">
+                                        <img src="./image/icons/star.svg" alt="star">
                                         4.5
                                     </div>
                                     <div class="products-card__description-info--price">
@@ -125,7 +125,7 @@
 
                     <a href="goods.html"  class="products-card">
                         <div class="products-card__image">
-                            <img src="/image/food/foodband.jpg" alt="pizza-plus">
+                            <img src="./image/food/foodband.jpg" alt="pizza-plus">
                         </div>
                         <div class="products-card__description">
                             <div class="product-card__description-row">
@@ -139,7 +139,7 @@
                             <div class="products-card__description-row">
                                 <div class="products-card__description-info">
                                     <div class="products-card__description-info-raiting">
-                                        <img src="/image/icons/star.svg" alt="star">
+                                        <img src="./image/icons/star.svg" alt="star">
                                         4.5
                                     </div>
                                     <div class="products-card__description-info--price">
@@ -154,7 +154,7 @@
                     </a>
                     <a href="goods.html"  class="products-card">
                         <div class="products-card__image">
-                            <img src="/image/food/zadina.jpg" alt="pizza-plus">
+                            <img src="./image/food/zadina.jpg" alt="pizza-plus">
                         </div>
                         <div class="products-card__description">
                             <div class="product-card__description-row">
@@ -168,7 +168,7 @@
                             <div class="products-card__description-row">
                                 <div class="products-card__description-info">
                                     <div class="products-card__description-info-raiting">
-                                        <img src="/image/icons/star.svg" alt="star">
+                                        <img src="./image/icons/star.svg" alt="star">
                                         4.5
                                     </div>
                                     <div class="products-card__description-info--price">
@@ -183,7 +183,7 @@
                     </a>
                     <a href="goods.html"  class="products-card">
                         <div class="products-card__image">
-                            <img src="/image/food/dot_food.jpg" alt="pizza-plus">
+                            <img src="./image/food/dot_food.jpg" alt="pizza-plus">
                         </div>
                         <div class="products-card__description">
                             <div class="product-card__description-row">
@@ -197,7 +197,7 @@
                             <div class="products-card__description-row">
                                 <div class="products-card__description-info">
                                     <div class="products-card__description-info-raiting">
-                                        <img src="/image/icons/star.svg" alt="star">
+                                        <img src="./image/icons/star.svg" alt="star">
                                         4.5
                                     </div>
                                     <div class="products-card__description-info--price">
@@ -212,7 +212,7 @@
                     </a>                   
                     <a href="goods.html"  class="products-card">
                         <div class="products-card__image">
-                            <img src="/image/food/pizzaburger.jpg" alt="pizza-plus">
+                            <img src="./image/food/pizzaburger.jpg" alt="pizza-plus">
                         </div>
                         <div class="products-card__description">
                             <div class="product-card__description-row">
@@ -226,7 +226,7 @@
                             <div class="products-card__description-row">
                                 <div class="products-card__description-info">
                                     <div class="products-card__description-info-raiting">
-                                        <img src="/image/icons/star.svg" alt="star">
+                                        <img src="./image/icons/star.svg" alt="star">
                                         4.5
                                     </div>
                                     <div class="products-card__description-info--price">
@@ -251,7 +251,7 @@
                     Корзина
                 </h2>
                 <span class="cart-modal__header--close">
-                    <img src="/image/icons/close.svg" alt="close">
+                    <img src="./image/icons/close.svg" alt="close">
                 </span>
             </div>
             <div class="cart-modal__body">
@@ -325,7 +325,7 @@
                 
                 <div class="cart-modal__footer--controls">
                     <button class="btn btn-primary">Оформить заказ</button>  
-                    <button class="btn btn-outline">Отмена</button>
+                    <button class="btn btn-outline" id="exit-button">Отмена</button>
                 </div>
             </div>
         </div>
